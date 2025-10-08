@@ -173,6 +173,8 @@ export default function SwipePage() {
     });
   };
 
+  
+
   useEffect(() => {
     updateStats(jobs.length - currentIndex);
   }, [currentIndex, jobs, likedJobs, passedJobs]);
